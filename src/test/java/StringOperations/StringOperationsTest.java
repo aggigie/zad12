@@ -56,4 +56,16 @@ class StringOperationsTest {
         assertTrue(stringOperations.isPalindrome(input));
     }
 
+    @Test
+    void palindromeNonEmpty(){
+        String input = "abba";
+        assertTrue(stringOperations.isPalindrome(input));
+    }
+
+    @Test
+    void nonPalindrome(){
+        String input = "kawa";
+        assertFalse(stringOperations.isPalindrome(input));
+    }
+
 }
