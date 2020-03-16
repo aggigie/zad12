@@ -2,7 +2,7 @@ language: java
 install: true
 env:
   global:
-    - CC_TEST_REPORTER_ID=abc4aea6b3f0ae2877f025730c885b8434813ae22071f59ca7a2caaa12c47bf1
+    - CC_TEST_REPORTER_ID=2b081807fb9602f82485d22758dcb126af33c32c446190cd1018eb814d4f03e7
 os: linux
 dist: trusty
 jdk: oraclejdk8
